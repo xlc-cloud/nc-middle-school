@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>南昌中学推文发布站</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .tweet-card {
+            transition: all 0.3s ease;
+        }
+
+        .tweet-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- 网站头部 -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex flex-col items-center">
+            <img src="photos/school_logo.png" alt="南昌中学标志" class="h-16">
+            <h1 class="text-2xl font-bold mt-2">南昌中学服务号</h1>
+        </div>
+    </header>
+    <!-- 推文板块 -->
+    <main class="container mx-auto py-8 grid grid-cols-1 gap-6">
+        <!-- 示例推文卡片 -->
+        <a href="photos/tweet1.html" class="tweet-card bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="photos/tweet_1.png" alt="推文图片" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-xl font-bold mb-2">全国选聘 | 南昌中学2025年面向全国公开引进优秀教育人才公告</h2>
+                <p class="text-gray-600 mb-4">南昌中学系南昌市委、市政府重点打造的一所高规格、高起点的省级重点中学。学校创建于1902年，前身为“府立洪都书院”......</p>
+                <span class="text-blue-600 hover:underline">查看详情</span>
+            </div>
+        </a>
+        <a href="photos/tweet2.html" class="tweet-card bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="photos/tweet_2.png" alt="推文图片" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-xl font-bold mb-2">热烈祝贺南昌中学民乐团在全国第八届中小学生艺术展演活动中荣获全国一等奖！</h2>
+                <p class="text-gray-600 mb-4">指导老师：白梦  参赛学生名单：易若涵、张芷墨、熊浩宇......</p>
+                <span class="text-blue-600 hover:underline">查看详情</span>
+            </div>
+        </a>
+        <a href="photos/tweet3.html" class="tweet-card bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="photos/tweet_3.png" alt="推文图片" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h2 class="text-xl font-bold mb-2">珍爱生命 预防溺水——南昌中学青山湖校区开展防溺水安全教育晨会</h2>
+                <p class="text-gray-600 mb-4">南昌中学青山湖校区利用晨会时间组织开展 "珍爱生命 预防溺水" 专题安全教育活动...</p>
+                <span class="text-blue-600 hover:underline">查看详情</span>
+            </div>
+        </a>
+    </main>
+    <!-- 网站底部 -->
+    <footer class="bg-white shadow-md py-4">
+        <div class="container mx-auto text-center text-gray-600">
+            &copy; 2025 南昌中学 版权所有
+        </div>
+    </footer>
+</body>
+
+</html>
+    
